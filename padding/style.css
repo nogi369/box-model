@@ -1,0 +1,42 @@
+h1 {
+  border: 5px solid #ff0000;
+  background-color: #e0e0e0;
+}
+
+/* 一括で 10px の padding を設定し場合 */
+/* .set_padding {
+  padding: 10px;
+} */
+
+/* 4 つの padding プロパティを用いて設定を行った場合 */
+/* .set_padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+} */
+
+/* 上下で同じ値、左右で同じ値を設定する場合 */
+/* padding: 上下 左右; */
+/* .set_padding {
+  padding: 10px 20px;
+} */
+
+/* 上下で個別の値、左右で同じ値を設定する場合 */
+/* padding: 上下 左右 下; */
+/* .set_padding {
+  padding: 10px 20px 30px;
+} */
+
+/* 上下左右で別の値を設定する場合 */
+/* padding: 上 右 下 左; */
+/* .set_padding {
+  padding: 10px 20px 30px 40px;
+} */
+
+/* padding のカラーについて */
+
+/* class指定なしのタグの色指定は classにも適用される */
+.set_padding {
+  padding: 10px;
+}

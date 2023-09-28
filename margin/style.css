@@ -1,0 +1,48 @@
+h1 {
+  border: 5px solid #ff0000;
+  background-color: #e0e0e0;
+  margin: 0;
+}
+
+.set_padding {
+  padding: 10px;
+}
+
+/* .set_margin {
+  margin: 30px;
+} */
+
+/* 一括で 10px の margin を設定した場合 */
+/* .set_margin {
+  margin: 10px;
+} */
+
+/* 4 つの margin プロパティを用いて設定を行った場合 */
+.set_margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* margin のカラーについて */
+/* margin は透明であるため、直接カラーを設定することができない */
+/* 親要素の背景色がある場合、margin は、透明であるため、親要素の背景色が margin の色となる */
+
+/* その他の margin プロパティの指定方法 */
+
+/* 上下左右指定 = paddingと同じ */
+
+/* margin の相殺 */
+/* 上下に margin を持つ 2 つの要素が隣り合わせて上下に並んだ時、値の大きな margin のみ適用される */
+/* 上下で margin を指定する際に必ず覚えておかなければならないルール */
+
+/* 親要素からはみ出す margin */
+/* 親要素に border, padding, margin が設定されていない場合に子要素で margin を設定すると親要素を超えて margin が設定される */
+/* もし margin が親要素からはみ出している場合は親要素に
+overflow: 〇〇
+を設定してみる */
+
+/* padding と margin の違いについて */
+/* margin も padding もコンテンツの外側に領域を確保するという意味では同じなので border を使用しない時は選択に迷ってしまう */
+/* => paddingを使うほうがデメリットが少ないため、基本的にpaddingを使用する */
